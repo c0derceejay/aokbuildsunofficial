@@ -9,6 +9,43 @@ p {
     color: black;
 }
 
+.ulp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.lip {
+    float: left;
+}
+
+.lip a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.lip a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.headline {
+    padding: 15px;
+    text-align: center;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -40,8 +77,12 @@ img {
 
 /* Style the tab buttons */
 
+button:focus {
+    color: black;
+}
+
 .tablink {
-    background-color: #555;
+    background-color: #000;
     color: white;
     float: left;
     border: none;
@@ -110,4 +151,12 @@ img {
 
 #Paladin {
     background-color: pink;
+}
+
+#Home {
+    background-color: grey;
+}
+
+#Contact {
+    background-color: grey;
 }
