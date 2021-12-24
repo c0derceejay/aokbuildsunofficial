@@ -1,0 +1,113 @@
+h1 {
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+p {
+    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    /* 5px rounded corners */
+}
+
+
+/* Add rounded corners to the top left and the top right corner of the image */
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
+
+
+/* Style the tab buttons */
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tablink:hover {
+    background-color: #777;
+}
+
+
+/* Set default styles for tab content */
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* Style each tab content individually */
+
+#Wizard {
+    background-color: lightblue;
+}
+
+#Scholar {
+    background-color: beige;
+}
+
+#Elder {
+    background-color: green;
+}
+
+#Champion {
+    background-color: red;
+}
+
+#Lich {
+    background-color: maroon;
+}
+
+#Assassin {
+    background-color: orange
+}
+
+#Mystic {
+    background-color: yellow;
+}
+
+#Ranger {
+    background-color: lightgreen;
+}
+
+#Nihilist {
+    background-color: purple;
+}
+
+#Paladin {
+    background-color: pink;
+}
