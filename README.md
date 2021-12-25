@@ -1,6 +1,8 @@
 
 # AoK Builds and News!
 
+(Work In Progress)
+
 ****THIS IS AN UNOFFICAL GUIDE****
 
 	[AoK](https://arenaofkings.com/)
@@ -27,5 +29,4 @@ Founded by previous Rank 1 and Gladiator players from other MMORPGs, the game wa
 • Quick queues and fast action! (1-2 minute battles)
 
 • Recruit A Friend and earn bonus Silver from Bounties to you both while partied!
-```
 
